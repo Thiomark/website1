@@ -19,9 +19,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-end;
-        padding-bottom: 4em;
-        width: 140px;
+        padding-top: 10em;
     }
 
     h1{

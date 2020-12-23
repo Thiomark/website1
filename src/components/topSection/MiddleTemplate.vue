@@ -1,7 +1,7 @@
 <template>
-    <div class="container">
+    <div class="middle-template-container">
         <h1>There's beauty <span>in simplicity</span></h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos fugiat tenetur blanditiis est suscipit distinctio libero ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil repellat saepe non recusandae earum.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur suscipit distinctio libero ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil repellat saepe non recusandae earum.</p>
         <a href="#">BUY NOW<i class="fas fa-caret-right"></i></a>
     </div>
 </template>
@@ -14,9 +14,9 @@
 
 <style scoped>
 
-    .container {
+    .middle-template-container {
         /* background-color: blueviolet; */
-        max-width: 800px;
+        max-width: 600px;
         padding: 2em 4em;
         display: flex;
         flex-direction: column;
@@ -34,6 +34,7 @@
     }
 
     p{
+        margin: 2em 0 2em 0;
         font-size: 14px;
         border-left: 1px solid #C1C1C1;
         padding-left: 2em;
