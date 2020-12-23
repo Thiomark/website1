@@ -25,6 +25,7 @@
 
     .top-section-container{
         max-width: 1440px;
+        min-height: 60vh;
         margin: auto;
         display: grid;
         grid-template-columns: auto auto auto;
