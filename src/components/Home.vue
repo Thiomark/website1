@@ -1,11 +1,7 @@
 <template>
     <div class="wrapper">
         <Header storeName="Umbrella"/>
-        <div class="website-information">
-            <LeftTemplate />
-            <MiddleTemplate />
-            <RightTemplate class="move-down"/>
-        </div>
+        <TopSection />
         <h1>SB47</h1>
         <BottomSection />
     </div>
@@ -14,19 +10,15 @@
 <script>
     
     import Header from './Header'
+    import TopSection from './TopSection'
     import BottomSection from './BottomSection'
-    import LeftTemplate from './topSection/LeftTemplate'
-    import MiddleTemplate from './topSection/MiddleTemplate'
-    import RightTemplate from './topSection/RightTemplate'
 
     export default {
         name: "Home",
         components: {
             Header,
             BottomSection,
-            LeftTemplate,
-            MiddleTemplate,
-            RightTemplate
+            TopSection
         }
         
     }
@@ -43,13 +35,7 @@
         position: relative;
     }
 
-    .website-information{
-        padding: 0 150px;
-        height: 60vh;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        
-    }
+    
 
     h1 {
         font-size: 15rem;
